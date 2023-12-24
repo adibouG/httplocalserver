@@ -1,0 +1,32 @@
+{
+  "name": "httpdevserver",
+  "version": "1.0.0",
+  "description": "a simple http server with mime type support for local uses",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/adibouG/httplocalserver.git"
+  },
+  "keywords": [
+    "http",
+    "serve",
+    "dev",
+    "local"
+  ],
+  "author": "iADi",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/adibouG/httplocalserver/issues"
+  },
+  "homepage": "https://github.com/adibouG/httplocalserver#readme",
+  "dependencies": {
+    "file-type": "^18.7.0",
+    "mime": "^4.0.1",
+    "nodemon": "^3.0.2"
+  }
+}
